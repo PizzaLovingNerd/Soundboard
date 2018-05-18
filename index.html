@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Soundboard</title>
-  </head>
-  
-  <body>
+<body>
 
-    <p>Goat</p>
-    
-    <audio controls>
-      <source src="Goat.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
+<h3>A demonstration of how to access a AUDIO element</h3>
+
+<audio id="goat">
+  <source src="Goat.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the button to get the duration of the audio, in seconds.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(var) {
+   document.getElementById("goat").play();
+}
+</script>
+
+</body>
+</html>
 
     
