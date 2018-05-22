@@ -3,7 +3,11 @@ body {
 }
 
 button {
-  color: black
-  background-color: white
-  font-size: 30px
+  color: black;
+  background-color: white;
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 3px;
 }
